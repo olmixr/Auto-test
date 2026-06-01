@@ -13,13 +13,3 @@ npm start
 ```text
 http://localhost:3000/test/?country=md&language=ru
 ```
-
-## Деплой на Vercel
-
-1. Залей папку проекта в GitHub.
-2. Создай новый проект на Vercel из этого репозитория.
-3. Build command оставь пустым.
-4. Output directory оставь пустым.
-5. После деплоя открой `/test/?country=md&language=ru`.
-
-Файлы `api/questions/index.js` и `api/subjects/index.js` проксируют запросы сайта к источнику вопросов. Для публичной публикации убедись, что у тебя есть право использовать эти вопросы и изображения.
