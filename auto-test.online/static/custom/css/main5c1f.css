@@ -1,0 +1,43 @@
+h1 {
+	font-size: 1.5em;
+	color: #808080;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin: 20px 0;
+	text-align: left;
+	cursor: default;
+}
+
+#menu .input-group-text {
+	padding: 0 10px;
+}
+
+#menu .bi {
+	font-size: 1.2em;
+}
+
+#menu li a.active {
+	box-shadow: 0 2px rgba(0,0,0,.9);
+}
+
+#menu .navbar-brand img {
+	margin-top: 0;
+	margin-bottom: 2px;
+}
+
+#menu .navbar-brand:active img {
+	box-shadow: 0 2px #666;
+	margin-top: 2px;
+	margin-bottom: 0;
+}
+
+@media(max-width: 767.98px) {
+	#menu li a.active {
+		box-shadow: none;
+		font-weight: 500;
+	}
+
+	#menu .input-group>label {
+		display: none;
+	}
+}

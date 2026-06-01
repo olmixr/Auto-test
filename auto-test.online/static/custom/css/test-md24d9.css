@@ -1,0 +1,332 @@
+#test button {
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+}
+
+#test .nav-tabs {
+	border-bottom: none;
+}
+
+#test .nav-tabs .bi {
+	font-size: 1em;
+	margin-right: 0.5em;
+}
+
+#test .nav-tabs .tab-sep {
+	display: none;
+}
+
+#test .tab-content {
+	border: 1px solid #ddd;
+	border-bottom-left-radius: 4px;
+	border-bottom-right-radius: 4px;
+	padding: 0.75em;
+	padding-bottom: 0;
+	min-height: 350px;
+}
+
+#test .item {
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	padding: 0.8em;
+	cursor: pointer;
+	margin-bottom: 0.8em;
+	text-align: center;
+}
+
+#test .item:hover {
+	border: 1px solid #aaa !important;
+	background-color: #f5f5f5 !important;
+	color: #333 !important;
+}
+
+#test .item-category {
+	font-size: 2.5em;
+	font-weight: bold;
+	color: #444;
+	cursor: pointer;
+}
+
+#test .item-image {
+	max-width: 100%;
+	height: auto;
+	cursor: pointer;
+}
+
+#test .item-info {
+	font-size: 1.2em;
+	font-weight: bold;
+	color: #444;
+	cursor: pointer;
+}
+
+#test .vertical-align {
+	display: flex;
+	align-items: center;
+}
+
+#test .btn-block {
+	display: block;
+	width: 100%;
+}
+
+#tab_education_detail {
+    margin-bottom: 0.7em;
+}
+
+#tab_education_detail .nav-link {
+	min-width: 100px;
+}
+
+#tab_education_tickets .item {
+	margin-bottom: 0.6em;
+	padding: 0.5em;
+	font-size: 1.4em;
+	font-weight: bold;
+}
+
+#tab_education_tickets .item.bg-success,
+#tab_education_tickets .item.bg-danger {
+	color: #fff;
+}
+
+#tab_education_tickets,
+#tab_education_subjects {
+	max-height: 450px;
+	overflow-y: auto;
+	margin-bottom: 0.7em;
+}
+
+#tab_education_subjects li {
+	cursor: pointer;
+}
+
+#tab_education_subjects li:hover {
+	border: 1px solid #aaa;
+	background-color: #f5f5f5;
+}
+
+#tab_education_subjects .badge {
+	font-size: 0.9em;
+	border-radius: 16px;
+}
+
+#timer {
+	font-size: 1.1em;
+	padding: 0.4em 0.6em;
+	position: relative;
+	float: right;
+}
+
+#questions {
+	display: inline-block;
+}
+
+#questions .btn {
+	padding: 3px 0;
+	margin: 2px 0px;
+	width: 40px;
+	text-align: center;
+	border: 1px solid #ddd;
+}
+
+#questions .btn:hover {
+	background-color: #f5f5f5;
+	color: #333;
+}
+
+#questions .btn:not(.btn-selected):hover {
+	border: 1px solid #aaa;
+}
+
+#questions .btn-selected {
+	border: 4px solid #0d6efd;
+	border-top: 1px solid #0d6efd;
+	border-bottom: 1px solid #0d6efd;
+}
+
+#question_text {
+	margin: 0;
+	padding: 10px 20px;
+	min-height: 68px;
+	text-align: left;
+	border-left: 5px solid #eee;
+}
+
+#question_img {
+	cursor: default;
+	width: auto;
+	height: auto;
+	max-height: 320px;
+	max-width: 100%;
+	border: 2px solid #eee;
+	border-radius: 4px;
+	margin-bottom: 0.7em;
+}
+
+#answers .btn {
+	text-align: justify;
+	white-space: normal;
+	margin-bottom: 0.5em;
+	border: 1px solid #ddd;
+}
+
+#answers .btn:not(.btn-danger):not(.btn-success):hover {
+	border: 1px solid #aaa;
+	background-color: #f5f5f5;
+	color: #333;
+}
+
+#answers .btn-selected {
+	border: 6px solid #0d6efd;
+	border-top: 2px solid #0d6efd;
+	border-bottom: 2px solid #0d6efd;
+	border-radius: 4px;
+	padding: 5px 8px;
+}
+
+#question_stat {
+	height: 2em;
+	cursor: default;
+	margin-bottom: 0.7em;
+}
+
+#question_stat .progress-bar {
+	font-size: 1.6em;
+}
+
+#question_hint {
+	margin: 0.7em;
+	text-align: justify;
+}
+
+#btn_read_prompt:hover {
+	color: #fff;
+}
+
+#btn_read_prompt,
+#btn_next_question,
+#btn_finish {
+	margin: 0.5em 0;
+	font-size: 1em;
+	font-weight: 500;
+	letter-spacing: 0.05em
+}
+
+#test .btn>span {
+	vertical-align: text-top;
+	cursor: pointer;
+}
+
+#test .btn_wrap_text {
+	overflow: hidden;
+	white-space: nowrap;
+	display: inline-block;
+	text-overflow: ellipsis;
+}
+
+#hint {
+	margin: 0.5em 0;
+	text-align: left;
+}
+
+#tab_result .bg-success {
+	min-width: 40px;
+}
+
+#btn_prev,
+#btn_next {
+	min-width: 50%;
+	max-width: 100%;
+}
+
+#tab_loader img {
+	margin-top: 160px;
+}
+
+.border_bottom {
+	border-bottom: 1px solid #ddd;
+}
+
+.border_top {
+	border-top: 1px solid #ddd;
+}
+
+#tab_statistic table th:nth-child(1) {
+	width: 50%;
+	max-width: 50%;
+}
+
+#tab_statistic table thead th {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+#test_info hr {
+	margin: 10px 0;
+}
+
+#test_info p {
+	margin: 5px 0;
+}
+
+@media(max-width: 767.98px) {
+	#test .tab-content {
+		padding: 0.5em;
+		padding-bottom: 0;
+	}
+
+	#test .nav-tabs .bi {
+		font-size: 1.2em;
+		margin: 0 auto;
+	}
+
+	#test .nav-tabs .tab-sep {
+		display: block;
+	}
+
+	#test .nav-tabs .tab-text {
+		font-size: 0.9em;
+	}
+
+	#test .nav-tabs .nav-link {
+		padding: 10px 8px;
+	}
+
+	#btn_prev,
+	#btn_next {
+		min-width: 100%;
+	}
+
+	#question_hint {
+		margin-right: 0;
+		margin-left: 0;
+	}
+
+	#tab_education_detail .nav-tabs .nav-link {
+		width: 50%;
+	}
+
+	#tab_education_tickets,
+	#tab_education_subjects {
+		max-height: 100%;
+	}
+
+	#tab_statistic {
+		font-size: 0.8em;
+	}
+
+	#tab_statistic table td {
+		padding: 5px;
+	}
+
+	#tab_statistic table th:nth-child(1) {
+		width: 30%;
+	}
+
+	#tab_statistic .btn_hard,
+	#tab_statistic .btn_my_hard {
+		padding: 6px 8px;
+	}
+}

@@ -1,0 +1,60 @@
+{
+  "cleanUrls": true,
+  "rewrites": [
+    {
+      "source": "/api/questions/",
+      "destination": "/api/questions"
+    },
+    {
+      "source": "/api/subjects/",
+      "destination": "/api/subjects"
+    },
+    {
+      "source": "/test",
+      "destination": "/auto-test.online/test/index4a2e.html"
+    },
+    {
+      "source": "/test/",
+      "destination": "/auto-test.online/test/index4a2e.html"
+    },
+    {
+      "source": "/test/index.html",
+      "destination": "/auto-test.online/test/index4a2e.html"
+    },
+    {
+      "source": "/test/:path*",
+      "destination": "/auto-test.online/test/:path*"
+    },
+    {
+      "source": "/static/custom/img/md/category/:path*",
+      "destination": "/auto-test.online/static/custom/img/md/category/:path*"
+    },
+    {
+      "source": "/static/custom/img/md/:path*",
+      "destination": "https://auto-test.online/static/custom/img/md/:path*"
+    },
+    {
+      "source": "/static/custom/img/noimage.jpg",
+      "destination": "https://auto-test.online/static/custom/img/noimage.jpg"
+    },
+    {
+      "source": "/static/:path*",
+      "destination": "/auto-test.online/static/:path*"
+    },
+    {
+      "source": "/cdn-cgi/:path*",
+      "destination": "/auto-test.online/cdn-cgi/:path*"
+    }
+  ],
+  "headers": [
+    {
+      "source": "/static/:path*",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=86400"
+        }
+      ]
+    }
+  ]
+}
